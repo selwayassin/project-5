@@ -1,0 +1,96 @@
+.container{
+    background-color: #666666; 
+    max-width: 980px;
+    margin: auto;
+    padding: 10px;
+}
+.container > *{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 3px;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+.nav-left .logo{
+    order: 1;
+    background-color: #aaaaaa; 
+    border: 1px solid grey;
+    padding: 10px;
+    height: 75px;
+    width: 100px;
+    color: white;
+    text-align: center;
+}
+.nav-right{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+.nav-right .phone{
+    background-color: #aaaaaa; 
+    border: 1px solid grey;
+    padding: 10px;
+    height: 25px;
+    width: 75px;
+    color: white;
+    text-align: center; 
+    margin-left: 75px;
+    
+}
+.nav-right .menu{
+    background-color: #aaaaaa;
+    border: 1px solid grey;
+    color: white;
+    padding: 10px;
+    height: 25px;
+    width: 150px;
+    text-align: center;
+}
+.image-slideshow{
+    background-color: #aaaaaa;
+    color: white;
+    border: 1px solid grey;
+    height: 130px;
+    padding: 40px;
+}
+ .content{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+ }
+ .content .text-content{
+    order: 1;
+    background-color: #aaaaaa;
+    color: white;
+    height: 400px; 
+    border: 1px solid grey;
+    padding: 20px;
+    flex: 2;
+    text-align: center;
+ }
+ .content .side-bar{
+    order: 2;
+    background-color: #aaaaaa;
+    color: white;
+    height: 400px; 
+    border: 1px solid grey;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    margin-left: 3px;
+ }
+ 
+ footer{
+    background-color: #aaaaaa;
+    color: white;
+    height: 150px;
+    border: 1px solid grey;
+    padding: 40px;
+    margin-bottom: 13px;
+    text-align: center;
+ }
+ 
